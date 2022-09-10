@@ -12,10 +12,30 @@ Esse projeto foi uma inspiração do video do YouTuber e desenvolvedor Gustavo N
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## 🤝 Contribuição
+## 🤝 Colaboradores
 
- <a href="https://github.com/FelipeMatthew">Fellipe Matthew</a>
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/90846108?v=4" width="100px;" alt="Foto do Gabriel Marques no GitHub"/><br>
+        <sub>
+          <b>Gabriel Marques</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/102431464?v=4" width="100px;" alt="Foto do Felipe Matthew "/><br>
+        <sub>
+          <b>Felipe Matthew</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### Support Ou Contato
 
