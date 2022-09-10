@@ -1,14 +1,15 @@
 :root {
     --primary-color: #644aff;
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 
 }
@@ -19,6 +20,10 @@ body {
     box-sizing: border-box;
 }
 
+.section_2 {
+    background: #fff;
+}
+
 #bg-sec1 {
     background-color: #F7FAFC;
 }
@@ -26,20 +31,19 @@ body {
 #logo {
     max-width: 100%;
     width: 220px;
-
 }
 
 .wrapper {
     width: 90%;
-    max-width: 1140px;
+    max-width: 1640px;
     min-width: none;
-    margin: 0 7%;
+    margin: 0 auto;
 }
 
 #txt-primario {
     text-align: center;
     font-weight: 700;
-    font-size: 5em;
+    font-size: 4em;
     color: #1A202C;
 }
 
@@ -47,24 +51,19 @@ h1>span {
     color: #644AFF;
 }
 
-h2,
-h3,
-p {
-    text-align: center;
-}
 
 p {
     color: #718094;
+    text-align: center;
 
 }
 
-img {
-    width: 50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h2,
+h3 {
+    text-align: center;
+
 }
+
 
 .Botao_Download {
     /*tamanho*/
@@ -100,51 +99,62 @@ img {
     color: #718094;
     margin-top: 40px;
 }
-#txt_h2>h2{
-    font-size: 2em;
-    margin-top: 50px;
-}
-.section_2{
-    margin-top: 100px;
-}
-.sub_txt>h3{
-    margin-top: 15px;
-    
+
+#txt_h2>h2 {
+    font-size: 3em;
+    margin-top: .80px;
 }
 
-.sub_txt>img{
-    position: relative;
-    left: 25%;
-display: flex;
-align-items: center;
-justify-content: center;
+.sub_txt>h3 {
+    font-size: 1.8em;
+    margin-top: 15px;
 }
-#logo-footer{
+
+.alinhador>p {
+    font-size: 1em;
+    width: 40%;
     position: relative;
-    left: 25%;
-display: flex;
-align-items: center;
-justify-content: center;
+    margin: 10px 5px;
 }
+
+#dec-cadastro {
+    margin-bottom: 80px;
+}
+
+.alinhador>img {
+    margin: 45px;
+    width: 28%;
+
+}
+
+.alinhador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .main {
-    margin-top: 85px;
+    margin-top: 80px;
 }
 
 /* navbar */
+
 .navbar {
     z-index: 5;
     top: 0;
-    width: 90vw;
+    width: 100vw;
+    background-color: #F7FAFC;
+    box-shadow: 0px 0.8px 0.5px rgb(0, 0, 0);
     position: fixed;
     overflow: hidden;
-    background-color: #F7FAFC;
     min-height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 24px;
+    padding: 0 auto;
+
 }
 
 .nav-menu {
@@ -158,10 +168,15 @@ justify-content: center;
     list-style: none;
 }
 
+.nav-item>a {
+    margin: 8px;
+}
+
 .nav-link {
     text-decoration: none;
     color: black;
     transition: .7s ease;
+    font-weight: 700;
 }
 
 .hamburger {
@@ -177,6 +192,74 @@ justify-content: center;
     transition: all 0.5s ease-in-out;
     background-color: black;
 }
+
+.bg-started {
+    background-color: #E6F6FE;
+    height: 50%;
+}
+
+.bg-started>span>h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+    padding-top: 50px;
+    width: 40%;
+
+}
+
+.bg-started>span>button {
+    margin-top: 35px;
+    width: 250px;
+    height: 35px;
+    background-color: #644AFF;
+    border-radius: 10px;
+    border: 0;
+
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    font-size: 1em;
+
+}
+
+.bg-started>p {
+    font-weight: 700;
+    font-size: 1.4em;
+    padding-top: 50px;
+    color: #644AFF;
+}
+
+#logo-footer {
+    width: 200px;
+}
+
+.lista>a {
+    font-size: 1em;
+    font-weight: 600;
+    margin: 8px;
+}
+
+.lista2 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+
+}
+
+.lista2>li {
+    font-size: 2em;
+    list-style-type: none;
+    color: #858B9B;
+    margin: 10px;
+}
+
+.creditos>p,
+span {
+    text-align: center;
+}
+
+.creditos>span>a {
+    color: #03A9F4;
+}
+
 
 @media(max-width:768px) {
     .hamburger {
@@ -208,9 +291,9 @@ justify-content: center;
         transition: 0.5s;
         background-color: white;
         justify-content: center;
-        
+
     }
-    
+
 
 
     .nav-item {
@@ -220,7 +303,7 @@ justify-content: center;
         height: 50px;
         display: flex;
         justify-content: center;
-        
+
     }
 
     .nav-menu.active {
@@ -230,6 +313,19 @@ justify-content: center;
 
     #txt-primario {
         font-size: 2em;
+    }
+
+    .bg-started>span>h2 {
+
+        font-size: 1em;
+
+
+    }
+
+    .alinhador>img {
+        margin: 45px;
+        width: 55%;
+
     }
 
 }
