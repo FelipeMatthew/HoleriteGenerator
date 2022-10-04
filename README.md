@@ -1,9 +1,13 @@
 <img src="https://cdn.discordapp.com/attachments/1004926707851083807/1018204409311801404/aaaaaa.gif" alt="exemplo imagem">
 
 # Holerite Generator
-<img src="https://cdn.discordapp.com/attachments/1004926707851083807/1018201403254116392/Header.png" alt="exemplo imagem">
 
-Esse projeto foi uma inspiração do video do YouTuber e desenvolvedor Gustavo Neitzke
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/1004926707851083807/1018201403254116392/Header.png" alt="exemplo imagem">
+</p>
+
+
+Projeto gerador de holerite, para facilitar o uso das empresas hoje em dia, criamos para automatização de holerites já prontos ao contratar nossos serviços
 
 ## Feito Com:
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/pt-br/windows/get-windows-10)
@@ -13,8 +17,6 @@ Esse projeto foi uma inspiração do video do YouTuber e desenvolvedor Gustavo N
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 <table>
   <tr>
